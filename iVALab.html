@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" style="border-radius: 50px;" href="Assets/logo-modifie.png" type="image/png">
+  <title>iVA | Intelligence Virtual Arena </title>
+  <!--Google Fonts
+  <link href='http://fonts.googleapis.com/css?family=Lato:300,400,700,400italic,700italic' rel='stylesheet'
+    type='text/css'>-->
+  <!--CSS-
+ <link href="style.css" rel="stylesheet">-->
+  <link href="style1.css" rel="stylesheet">
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&amp;display=swap" rel="stylesheet" />
+  <!--script-->
+  <script src="https://cdn.tailwindcss.com"></script>
+  
+</head>
+
+<body>
+  <header class="bg-white shadow-md p-6 flex items-center justify-between flex-wrap">
+    <a href="index.html">
+      <div class="flex items-center space-x-2 px-4">
+        <img class="w-12 h-12" src="Assets/RoundLogo.png" alt="Logo">
+        <h2 class="logo text-blue-800 text-2xl md:text-4xl font-bold">iTSIKHWAL</h2>
+      </div>
+    </a>
+  
+    <!-- Hamburger Button (for mobile) -->
+    <button class="block md:hidden text-blue-800 focus:outline-none" onclick="toggleNav()">
+      <svg class="w-6 h-6" fill="none" stroke="currentColor" stroke-width="2"
+           viewBox="0 0 24 24" stroke-linecap="round" stroke-linejoin="round">
+        <path d="M4 6h16M4 12h16M4 18h16"/>
+      </svg>
+    </button>
+  
+    <!-- Nav Menu -->
+    <nav id="nav-menu"
+         class="w-full md:w-auto md:flex px-16 md:items-center md:space-x-6 space-y-2 md:space-y-0 
+                mt-4 md:mt-0 hidden md:block text-black font-bold text-center md:text-left 
+                transition-all duration-300 ease-in-out max-h-0 md:max-h-full overflow-hidden ">
+      <a href="index.html#Home" class="block md:inline-block" onclick="closeNavOnClick()">Home</a>
+     
+      <a href="index.html#Projects" class="block md:inline-block" onclick="closeNavOnClick()">Our Projects</a>
+      <a href="iVALab.html" class="block md:inline-block" onclick="closeNavOnClick()">AR/VR Lab</a>
+      <a href="index.html#About" class="block md:inline-block" onclick="closeNavOnClick()">About</a>
+      <a href="index.html#Team" class="block md:inline-block" onclick="closeNavOnClick()">Our Team</a>
+      <a href="#Contact" class="block md:inline-block" onclick="closeNavOnClick()">Contact</a>
+    </nav>
+  </header>
+
+<section class="text-center my-8 ">
+    <h1 class="text-4xl font-bold text-black-800 mb-4 mt-40">iVA Lab</h1>
+    <img src="Assets/labiva.png" class="mx-auto w-3/5" alt="iVA Lab">
+</section>
+
+<section id="Lab" class="p-8">
+    
+    <p class="text-lg mb-4">Welcome to the AR/VR Lab at GH Raisoni, Pune, India. Our lab is equipped with the latest technology to provide immersive experiences and cutting-edge research opportunities.</p>
+    
+    <h3 class="text-2xl font-bold text-blue-800 mb-2">Equipment</h3>
+
+   
+    <table class="min-w-full bg-opacity-5 bg-black border border-gray-300 mb-4">
+        <thead>
+            <tr>
+                <th class="py-2 px-4 border-b">Equipment</th>
+                <th class="py-2 px-4 border-b">Quantity</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td class="py-2 px-4 border-b">Meta Quest 2 128GB</td>
+                <td class="py-2 px-4 border-b">3</td>
+            </tr>
+            <tr>
+                <td class="py-2 px-4 border-b">Mobile based Irusu VR headset</td>
+                <td class="py-2 px-4 border-b">2</td>
+            </tr>
+            <tr>
+                <td class="py-2 px-4 border-b">Oculus quest Peripherals(Case + Elitestrap)</td>
+                <td class="py-2 px-4 border-b">3</td>
+            </tr>
+            <tr>
+                <td class="py-2 px-4 border-b">Projector</td>
+                <td class="py-2 px-4 border-b">2</td>
+            </tr>
+            <tr>
+                <td class="py-2 px-4 border-b">High-Performance PCs</td>
+                <td class="py-2 px-4 border-b">20</td>
+            </tr>
+            
+            <!-- Add more equipment as needed -->
+        </tbody>
+    </table>
+    <div class="w-full px-4 py-8 text-center">
+      <h3 class="text-2xl font-bold text-blue-800 mb-4">Location</h3>
+      <div class="w-full max-w-6xl mx-auto aspect-video rounded-lg overflow-hidden shadow-lg">
+        <iframe
+          class="w-full h-full"
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3782.014786792169!2d73.97954937523808!3d18.573372082530447!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bc2c38275a673c5%3A0x368b6a8fa28346d!2sG%20H%20RAISONI%20College%20OF%20ENGINEERING%20AND%20Management%2C%20PUNE!5e0!3m2!1sen!2sin!4v1734804086957!5m2!1sen!2sin"
+          style="border:0;"
+          allowfullscreen=""
+          loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade">
+        </iframe>
+      </div>
+    </div>
+    
+</section>
+
+<section id="ContactForm" class="p-8">
+    <h2 class="text-3xl font-bold text-center mb-8">Contact Form</h2>
+    <form action="mailto:info@example.com" method="POST" class="max-w-lg mx-auto">
+        <div class="mb-4">
+            <label for="name" class="block text-lg font-medium text-gray-700">Name</label>
+            <input type="text" id="name" name="name" required class="mt-1 p-2 w-full border border-gray-300 rounded-md">
+        </div>
+        <div class="mb-4">
+            <label for="email" class="block text-lg font-medium text-gray-700">Email</label>
+            <input type="email" id="email" name="email" required class="mt-1 p-2 w-full border border-gray-300 rounded-md">
+        </div>
+        <div class="mb-4">
+            <label for="message" class="block text-lg font-medium text-gray-700">Message</label>
+            <textarea id="message" name="message" rows="4" required class="mt-1 p-2 w-full border border-gray-300 rounded-md"></textarea>
+        </div>
+        <button type="submit" class="bg-blue-600 text-white py-2 px-4 rounded-md">Send Message</button>
+    </form>
+</section>
+
+
+<footer class="bg-white py-8">
+  <section id="Contact">
+  <div class="container mx-auto px-4">
+    <h2 class="text-3xl font-bold text-center mb-8">Contact</h2><hr>
+    <div class="flex flex-col md:flex-row justify-between items-center text-center md:text-left">
+      <div class="mb-6 md:mb-0 md:w-1/3">
+        <div class="flex items-center justify-center md:justify-start">
+          <i class="fas fa-map-marker-alt text-purple-600 text-2xl mr-2"></i>
+          <div>
+              <h3 class="text-lg font-bold text-black-900 mx-5">Location</h3>
+              <p class="text-gray-600 mx-5">G H RAISONI COLLEGE OF ENGINEERING <br>AND MANAGEMENT,PUNE</p>
+              <p class="text-gray-600 mx-5"> New Gat No. 1200 , Domkhel Road ,<br>
+                  Wagholi , Pune 412207, Maharashtra State, India </p>
+            </a>
+          </div>
+        </div>
+      </div>
+      <div class="mb-6 md:mb-0 md:w-1/3">
+        <div class="flex items-center justify-center md:justify-start">
+          <i class="fas fa-phone-alt text-purple-600 text-2xl mr-2"></i>
+          <div>
+            <h3 class="text-lg font-bold text-black-900 mx-5">Call Us On</h3>
+            <p class="text-gray-600 mx-5">+91 77098 46067</p>
+          </div>
+        </div>
+      </div>
+      <div class="md:w-1/3">
+        <div class="flex items-center justify-center md:justify-start">
+          <i class="fas fa-envelope text-purple-600 text-2xl mr-2"></i>
+          <div>
+            <h3 class="text-lg font-bold text-black-900 mx-5">Email Us</h3>
+            <p class="text-gray-600 mx-5">itsikhwal@gmail.com</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="border-t border-gray-300 mt-8 pt-4 text-center">
+      <p class="text-gray-600">Copyright © 2024 <span class="font-bold text-blue-900">iTSikhwal Pvt. Ltd</span>. All rights
+        reserved.</p>
+      <div class="flex justify-center mt-4">
+        <a href="https://www.facebook.com/iTSikhwal" class="text-blue-600 mx-5"><i class="fab fa-facebook-f"></i></a>
+        <a href="https://x.com/iTSikhwal" class="text-black-600 mx-2"><i class="fab fa-twitter"></i></a>
+        <a href="https://www.linkedin.com/company/iTSikhwal/" class="text-blue-600 mx-5"><i class="fab fa-linkedin-in"></i></a>
+        <a href="https://www.instagram.com/iTSikhwal/" class="text-pink-600 mx-2"><i class="fab fa-instagram"></i></a>
+      </div>
+    </div>
+  </div>
+</section>
+</footer>
+<script src="script.js"></script>
+</body>
+</html>
